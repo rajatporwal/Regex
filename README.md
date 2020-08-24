@@ -53,20 +53,20 @@
     let regex2  = /hello/g
     let regex3  = /worlds/g
     	
-	- regex1.exec(txt)
+     - regex1.exec(txt)
 
     /*
     output:
     	{
-    		0: "hello",
-    		groups: undefined,
-    		index: 41,
-    		input: "Programming courses always starts with a hello world example",
+    	  0: "hello",
+          groups: undefined,
+    	  index: 41,
+    	  input: "Programming courses always starts with a hello world example",
     	}
     */
 
-    	- regex2.exec(txt)			// output: ["hello, "hello"]
-    	- regex3.exec(txt)			// output: null
+    - regex2.exec(txt)	  // output: ["hello, "hello"]
+    - regex3.exec(txt)	  // output: null
 
 ````
 </details>
