@@ -249,15 +249,18 @@ let txt2 = "Dot is The very powerful name";
 
 let regex1 = /^The/gi; // Matches only string starting with the
 
--txt1.match(regex1) - txt2.match(regex1); // output : ["The"] // output : null
+- txt1.match(regex1);   // output : ["The"]
+- txt2.match(regex1);  // output : null
 
 let regex2 = /name.$/gi; // Matches only string ending with name.
 
--txt1.match(regex2) - txt2.match(regex2); // output : ["name."] // output : null
+- txt1.match(regex2);  // output : ["name."]
+- txt2.match(regex2);  // output : null
 
 let regex3 = /^The.*name.$/; // Matches only string starting with The and ending with name.
 
--txt1.match(regex3) - txt2.match(regex3); // output: ["The dot is the very powerful name."] // output: null
+- txt1.match(regex3);  // output: ["The dot is the very powerful name."]
+- txt2.match(regex3);  // output: null
 ```
 
 </details>
