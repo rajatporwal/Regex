@@ -13,7 +13,10 @@
   - [Anchored Expressions](#anchored-expressions)
   - [Accurate Regular Expressions](#accurate-regular-expressions)
   - [Word Boundary](#word-boundary)
-  - [Grouping](#grouping) + [Grouping with javascript](#grouping-with-javascript) + [Capturing Groups](#capturing-groups) + [Lookahead groups](#lookahead-groups)
+  - [Grouping](#grouping) 
+  	+ [Grouping with javascript](#grouping-with-javascript) 
+	+ [Capturing Groups](#capturing-groups) 
+	+ [Lookahead groups](#lookahead-groups)
 
 ## Two ways of writing Regex
 
